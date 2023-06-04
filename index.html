@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<title>Homepage</title>
+<style>
+body {
+margin: 0;
+}
+nav {
+	background: #FEF5E7;
+	height: 90px;
+	width: 100%;
+}
+label.logo{
+	color: #1D8348;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active, a:hover{
+	background: #D5F5E3;
+	transition: .5s;
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2e3e50;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	a:hover, a.active{
+		background: none;
+		color: black;
+	}
+	#check: checked ~ ul{
+		left: 0;
+	}
+}
+.active {
+text-decoration: none;
+}
+.activ {
+text-decoration: none;
+}
+body {
+background-image: url('https://wallpapers.com/images/hd/white-minimalist-plant-aesthetic-3nwxo0z57s6pmveq.jpg');
+background-size: cover;
+}
+.org {
+width: 20%;
+height: 20%;
+margin-left: 20em;
+margin-top: 5em;
+}
+.get-started-btn {
+      background-color: #D4EFDF;
+      color: black; 
+      padding: 10px 20px; 
+      font-size: 16px; 
+      border: none; 
+      cursor: pointer; 
+	  transition: .5s;
+	  text-align: center;
+    }
+.get-started-btn:hover {
+  background-color: #82E0AA;
+  }
+.cent {
+text-align: center;
+margin-left: -1em;
+margin-top: 3em;
+font-size: 60px;
+color: #FEF5E7;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+</style>
+<body>
+<nav>
+	<label class="logo"><small>JOY'S</small></label>
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a class="activ" href="portfoliojoy.html" target="_blank">About Me</a></li>
+	</ul>
+</nav>
+<section></section>
+
+<h1 class="cent">Hi! Welcome to my Website</h1>
+<p style="text-align: center; color: white; margin-top: -2em;">Click the button below to explore my works!</p>
+
+<div class="center">
+<a href="myworks.html">
+<button class="get-started-btn">Get Started</button>
+</a>
+</div>
+
+</body>
+</html>

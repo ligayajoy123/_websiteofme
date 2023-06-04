@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="https://kit.fontawesome.com/79166f8cd4.js" crossorigin="anonymous"></script>
+		<meta charset="UTF-8" />
+		<title>My YouTube Video</title>
+		<style>
+			body {
+				 border: 2px solid black;
+				 background: url("https://i.pinimg.com/originals/7d/65/db/7d65db6675ba603670429f1df84c9c42.jpg");
+			     background-repeat: no-repeat;
+				 background-size: cover;
+				 
+				font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+			}
+			h1 {
+				color: rgb(255, 255, 255);
+				font-size: 36px;
+				font-weight: bold;
+				text-align: center;
+				margin-top: 50px;
+			}
+			.video-wrapper {
+				position: relative;
+				padding-bottom: 56.25%; /* 16:9 aspect ratio */
+				height: 0;
+				margin: 50px auto;
+				max-width: 800px;
+				box-shadow: 0 4px 6px rgba(2, 183, 255, 0.2);
+			}
+			.video-wrapper iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h1><a href="myworks.html" <i class="fa-solid fa-house" style="font-size: 30px; color: white"></i></a> A DAY IN UB</h1>
+		<div class="video-wrapper">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/eiNMVnqVgiA" class="center"
+			</iframe>
+		</div>
+	</body>
+</html>

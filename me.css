@@ -1,0 +1,52 @@
+body {
+	background-image: url("https://i0.wp.com/www.minimalism.one/wp-content/uploads/2022/12/1642253674_27-adonius-club-p-fon-minimalizm-bezhevii-27.png?fit=1920%2C1080&ssl=1");
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+img {
+	max-width: 50%;
+	height: auto;
+}
+
+.prev, .next {
+	font-size: 3rem;
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+.prev:hover {
+	color: #FCF3CF ;
+}
+.next:hover{
+	color: #D4AC0D;
+}
+.next:active {
+	color: #D4AC0D;
+}
+.prev:active {
+	color: #FCF3CF;
+}
+
+h1 {
+	text-align: center;
+	font-family: arial;
+	color: white;
+	margin-top: -1em;
+}
+#hey {
+		margin-left: 20%;
+		margin-right: 20%;
+		border: 5px #FADBD8;
+		background-color: #7D6608;
+		padding: 50px;
+		border-radius: 5px;
+		border-style: dotted;
+		}

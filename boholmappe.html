@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<style>
+.arrow-container {
+  position: relative;
+}
+
+.arrow-container::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #000000;
+  animation: arrow 1s ease-in-out infinite;
+  margin-left: 26%;
+  margin-right: 50%;
+  margin-top: 15%;
+}
+
+@keyframes arrow {
+  0% {
+    left: -15px;
+  }
+  50% {
+    left: -10px;
+  }
+  100% {
+    left: -15px;
+  }
+}
+body {
+	background-color: white;
+	}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+</style>
+
+<body>
+<h2 style="text-align: center">BOHOL MAP</h2>
+<p style="text-align: center">Click the Baclayon:</p>
+<div class="arrow-container">
+ <img src="https://ppdo.bohol.gov.ph/wp-content/uploads/wppa/267.jpg" alt="bohol" usemap="#boholmap" class="center" width="941px" height="657px"> 
+
+<map name="boholmap">
+  <area shape="circle" coords="200,515,20" href="Baclayon.html">
+</map>
+</div>
+
+</body>
+</html>

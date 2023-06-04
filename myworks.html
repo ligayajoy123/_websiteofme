@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+.leftcolumn {
+	float: left;
+	width: 30%;
+	margin-left: 0.5em;
+}
+.middlecolumn {
+	float: left;
+	width: 40%;
+	margin-left: -0.5em;
+}
+.rightcolumn {
+	float: left;
+	width: 30%;
+	margin-left: -2em;
+	margin-top: 0.1em;
+}
+.imgcenter {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: auto;
+	display: block;
+	border: 3px solid white;
+}
+.imgcenter1 {
+	width: 300px;
+	height: 400px;
+	margin: auto;
+	padding: auto;
+	display: block;
+	border: 3px solid rgb(2, 30, 43);
+}
+p {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+body {
+margin: 0;
+background-image: url("https://i.pinimg.com/originals/c4/34/23/c434233f4e7aad81475a773e88cc2ff0.png");
+background-repeat: repeat;
+}
+nav {
+	background: #FEF5E7;
+	height: 90px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+label.logo{
+	color: #1D8348;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+.activ:hover{
+	background: #D5F5E3;
+	transition: .5s;
+}
+.active:hover {
+	background: #D5F5E3;
+	transition: .5s;
+	}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2e3e50;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	a:hover, a.active{
+		background: none;
+		color: black;
+	}
+	#check: checked ~ ul{
+		left: 0;
+	}
+}
+.active {
+text-decoration: none;
+}
+.activ {
+text-decoration: none;
+}
+.hey.active,
+.hey:hover {
+	background: #D5F5E3;
+	transition: 0.5s;
+	padding: 5px 5px;
+	border-radius: 10px;
+}
+.hey {
+text-decoration: none;
+color: black;
+}
+</style>
+
+<body>
+<nav>
+	<label class="logo"><small>JOY'S</small></label>
+	<ul>
+		<li><a class="active" href="houmpeg.html">Home</a></li>
+		<li><a class="activ" href="portfoliojoy.html" target="_blank">About Me</a></li>
+	</ul>
+</nav>
+<section></section>
+
+<h1 style="text-align: center; margin-left: -1em; font-size: 50px;">- MY WORKS -</h1>
+<br>
+     <section id="myworks">
+		<div class="leftcolumn">
+			<img class="imgcenter" src="about meE.jpg" />
+			<p><a class="hey" href="aboutme-1.html" target="_blank">Click here to View</a></p>
+			<br />
+			<img class="imgcenter" src="sillyfeks.jpg" />
+			<p><a class="hey" href="me1.html">Click here to View</a></p>
+			<br/>
+			<img class="imgcenter" src="pamlie.jpg" />
+			<p><a class="hey" href="joy.html">Click here to View</a></p>
+			<br />
+            <img class="imgcenter" src="mappp.jpg" />
+			<p><a class="hey" href="boholmappe.html" target="_blank">Click here to View</a></p>
+            <br />
+		</div>
+		<div class="middlecolumn">
+			<img class="imgcenter" src="mypotos.jpg" />
+			<p><a class="hey" href="My-photos.html" target="_blank">Click here to View</a></p>
+			<br />
+			<img class="imgcenter" src="kots.jpg" />
+			<p><a class="hey" href="quote1.html" target="_blank">Click here to View</a></p>
+			<br />
+			<img class="imgcenter" src="vlog.jpg" />
+            <p><a class="hey" href="myVideo.html">Click here to View</a></p>
+			<br />
+            <br>
+                </div>
+		<div class="rightcolumn">
+			<img class="imgcenter" src="regisform.jpg" />
+			<p><a class="hey" href="friendregistry-2.html" target="_blank">Click here to View</a></p>
+			<br />
+			<img class="imgcenter" src="releyted.jpg" />
+			<p><a class="hey" href="related.html" target="_blank">Click here to View</a></p>
+			<br />
+			<img class="imgcenter" src="kosoyon.jpg" />
+			<p><a class="hey" href="quotations.html">Click here to View</a></p>
+			<br />
+		</div>
+            </section>
+            
+			
+</body>
+</html>
